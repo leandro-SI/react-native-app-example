@@ -4,11 +4,11 @@ import Detalhes from "./componentes/Detalhes";
 
 import Topo from "./componentes/Topo";
 
-export default function Cesta() {
+export default function Cesta({ topo, detalhes }) {
     return <>
-        <Topo></Topo>
+        <Topo {...topo} ></Topo>
         <View style={estilos.cesta} >
-            <Detalhes></Detalhes>
+            <Detalhes {...detalhes} ></Detalhes>
         </View>
     </>
 }

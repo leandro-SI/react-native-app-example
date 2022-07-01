@@ -42,6 +42,32 @@ const cesta = {
                 imagem: abobora,
             }
         ]
+    },
+    itens: {
+        titulo: "Itens da cesta",
+        lista: [
+            {
+                nome: "Tomate",
+                imagem: tomate,
+            },
+            {
+                nome: "Brocolis",
+                imagem: brocolis,
+            },
+            {
+                nome: "Batata",
+                imagem: batata,
+            },
+            {
+                nome: "Pepino",
+                imagem: pepino,
+            },
+            {
+                nome: "Abobora",
+                imagem: abobora,
+            }
+            
+        ]
     }
 }
 
